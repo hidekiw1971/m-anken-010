@@ -1,0 +1,11 @@
+@use "global" as *;
+.header {
+  // size
+  display: inline-block;
+  width: rem(375);
+  height: rem(50);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

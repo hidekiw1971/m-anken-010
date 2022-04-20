@@ -1,0 +1,7 @@
+@use "global" as *;
+.header__li {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

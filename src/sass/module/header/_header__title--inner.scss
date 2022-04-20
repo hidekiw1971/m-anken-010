@@ -1,0 +1,22 @@
+@use "global" as *;
+.header__title--inner {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.header__title--inner img {
+  // size
+  display: block;
+  width: rem(70);
+  // aspect-ratio: 55.7142857%;
+  aspect-ratio: 70/39;
+  @include mq(md) {
+    // size
+    width: rem(94);
+    aspect-ratio: 26.59574%;
+  }
+  @include mq(xl) {
+  }
+}

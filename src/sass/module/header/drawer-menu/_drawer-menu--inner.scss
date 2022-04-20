@@ -1,0 +1,42 @@
+@use "global" as *;
+.drawer-menu__inner {
+  // size
+  width: rem(50);
+  aspect-ratio: 1/1;
+  // ajustment
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.drawer-menu__inner span {
+  // size
+  display: block;
+  width: rem(24);
+  height: rem(1);
+  // decoration
+  background-color: #fff;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.drawer-menu__inner span::before {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.drawer-menu__inner span::after {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
