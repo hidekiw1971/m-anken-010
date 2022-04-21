@@ -1,6 +1,38 @@
 @use "global" as *;
 .header__li {
   @include mq(md) {
+    // ajustment
+    display: flex;
+    align-items: center;
+    // space
+    padding-top: rem(0);
+    padding-right: rem(32);
+    padding-bottom: rem(0);
+    padding-left: rem(0);
+  }
+  @include mq(xl) {
+  }
+}
+
+.header__li:last-child {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.header__li--link {
+  @include mq(md) {
+    // size
+    height: 100%;
+    // decoration
+    background-color: #fff;
+    color: #333;
+    // space
+    padding-top: rem(0);
+    padding-right: rem(32);
+    padding-bottom: rem(0);
+    padding-left: rem(32);
   }
   @include mq(xl) {
   }

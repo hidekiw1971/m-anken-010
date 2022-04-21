@@ -17,10 +17,12 @@
 .drawer-menu__inner span {
   // size
   display: block;
-  width: rem(24);
-  height: rem(1);
+  width: 24px;
+  height: 2px;
   // decoration
   background-color: #fff;
+  // ajustment
+  position: relative;
   @include mq(md) {
   }
   @include mq(xl) {
@@ -28,6 +30,16 @@
 }
 
 .drawer-menu__inner span::before {
+  content: "";
+  // size
+  display: block;
+  width: 24px;
+  height: 2px;
+  // decoration
+  background-color: #fff;
+  // ajustment
+  position: absolute;
+  transform: translateY(-7px);
   @include mq(md) {
   }
   @include mq(xl) {
@@ -35,6 +47,16 @@
 }
 
 .drawer-menu__inner span::after {
+  content: "";
+  // size
+  display: block;
+  width: 24px;
+  height: 2px;
+  // decoration
+  background-color: #fff;
+  // ajustment
+  position: absolute;
+  transform: translatey(7px);
   @include mq(md) {
   }
   @include mq(xl) {

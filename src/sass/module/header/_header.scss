@@ -2,9 +2,15 @@
 .header {
   // size
   display: inline-block;
-  width: rem(375);
+  min-width: rem(375);
+  width: 100%;
   height: rem(50);
   @include mq(md) {
+    // size
+    display: block;
+    width: rem(1280);
+    // ajustment
+    margin: 0 auto;
   }
   @include mq(xl) {
   }

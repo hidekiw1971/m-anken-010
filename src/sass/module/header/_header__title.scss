@@ -1,8 +1,13 @@
 @use "global" as *;
 .header__title {
   // size
+  width: rem(70);
+  height: rem(39);
   display: inline-block;
   @include mq(md) {
+    // size
+    width: rem(94);
+    height: rem(25);
   }
   @include mq(xl) {
   }

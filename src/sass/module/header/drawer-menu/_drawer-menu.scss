@@ -3,6 +3,8 @@
   // size
   display: inline-block;
   @include mq(md) {
+    // ajustment
+    display: none;
   }
   @include mq(xl) {
   }

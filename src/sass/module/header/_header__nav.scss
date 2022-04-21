@@ -3,6 +3,9 @@
   // decoration
   display: none;
   @include mq(md) {
+    // size
+    display: block;
+    height: 100%;
   }
   @include mq(xl) {
   }
