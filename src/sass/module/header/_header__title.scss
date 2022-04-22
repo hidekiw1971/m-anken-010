@@ -7,7 +7,7 @@
   @include mq(md) {
     // size
     width: rem(94);
-    height: rem(25);
+    height: 100%;
   }
   @include mq(xl) {
   }

@@ -3,6 +3,7 @@
   // size
   display: block;
   width: 100%;
+  height: 100%;
   // ajustment
   position: relative;
   @include mq(md) {
@@ -16,6 +17,7 @@
   // size
   display: block;
   width: 100%;
+  height: 100%;
   padding-top: 55.7143%;
 
   @include mq(md) {
