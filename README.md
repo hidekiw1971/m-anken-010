@@ -42,6 +42,7 @@
 
 ## 更新履歴
 
+- 2022/4/24 sp、pc できた。後は確認。
 - 2022/4/22 `drawer menu`以外は完成。
 - 2022/4/21 `.drawer-menu__inner span/drawer-menu`作成中
 

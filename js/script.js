@@ -4,7 +4,8 @@ jQuery(function ($) {
   //ドロワーメニュー
   $(".drawer-menu__inner").click(function () {
     $(".drawer-menu__inner").toggleClass("open");
-    // $(".open").toggleClass("open");
+    $(".header__nav").toggleClass("open");
+    $(".header__inner").toggleClass("open");
     // $("html").toggleClass("is-fixed");
   });
 });

@@ -1,5 +1,8 @@
 @use "global" as *;
 .header__li {
+  // decoration
+  color: #fff;
+
   @include mq(md) {
     // ajustment
     display: flex;
