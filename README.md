@@ -41,6 +41,7 @@
 
 ## 更新履歴
 
+- 2022/4/25 li の不要 margin-bottom 消えた。
 - 2022/4/25 li の margin-bottom のが消えない。
 - 2022/4/24 sp、pc できた。後は確認。
 - 2022/4/22 `drawer menu`以外は完成。
