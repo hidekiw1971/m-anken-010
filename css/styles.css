@@ -190,6 +190,7 @@ select::-ms-expand {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
   padding-top: 0px;
   padding-top: 0rem;
   padding-right: 0px;
@@ -198,6 +199,20 @@ select::-ms-expand {
   padding-bottom: 0rem;
   padding-left: 22px;
   padding-left: 1.375rem;
+}
+.header__inner.open {
+  opacity: 1;
+}
+.header__li {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
+  line-height: 2.1875;
+  color: #fff;
 }
 @media screen and (min-width: 768px) {
   .header__li {
@@ -280,6 +295,16 @@ select::-ms-expand {
     transition: 0.1s;
   }
 }
+.header__li.open {
+  margin-bottom: 32px;
+  margin-bottom: 2rem;
+}
+
+.header__li.header__li--link {
+  margin-bottom: 0px;
+  margin-bottom: 0rem;
+}
+
 @media screen and (min-width: 768px) {
   .header__nav--inner {
     height: 100%;
@@ -293,6 +318,23 @@ select::-ms-expand {
     display: block;
     height: 100%;
   }
+}
+.header__nav.open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #111;
 }
 .header__title--img {
   display: block;
@@ -331,6 +373,8 @@ select::-ms-expand {
   height: 39px;
   height: 2.4375rem;
   display: inline-block;
+  position: relative;
+  z-index: 5;
 }
 @media screen and (min-width: 768px) {
   .header__title {
@@ -380,6 +424,7 @@ select::-ms-expand {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #111;
 }
 .drawer-menu__inner span {
   display: block;
@@ -421,10 +466,15 @@ select::-ms-expand {
 }
 .drawer-menu {
   display: inline-block;
+  position: relative;
+  z-index: 99;
 }
 @media screen and (min-width: 768px) {
   .drawer-menu {
     display: none;
   }
+}
+.drawer-menu:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -33,8 +33,7 @@
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
-- https://css-md-0000.wtb.cfbx.jp/
+- https://c-0060.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 
@@ -42,6 +41,9 @@
 
 ## 更新履歴
 
+- 2022/4/25 li の不要 margin-bottom 消えた。
+- 2022/4/25 li の margin-bottom のが消えない。
+- 2022/4/24 sp、pc できた。後は確認。
 - 2022/4/22 `drawer menu`以外は完成。
 - 2022/4/21 `.drawer-menu__inner span/drawer-menu`作成中
 
