@@ -1,6 +1,10 @@
 # compornent（共通部品）
 
 ## イメージ画像
+<img width="394" alt="image" src="https://user-images.githubusercontent.com/99580997/165095750-7ae28539-4a36-4432-a490-761183a3e1af.png">
+<img width="778" alt="image" src="https://user-images.githubusercontent.com/99580997/165095847-4c06373a-ace9-40c9-b2a3-231d8c3254cc.png">
+<img width="802" alt="image" src="https://user-images.githubusercontent.com/99580997/165095912-04a92b4a-8e41-492a-9a94-5fcddd332c86.png">
+
 
 ## 概要
 
@@ -21,15 +25,19 @@
 ## 使い方
 
 - 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
+- css: src -> module -> header をコピペ。
 
 ## w3c html チェック結果
 
 - https://validator.w3.org/nu/
+- <img width="755" alt="image" src="https://user-images.githubusercontent.com/99580997/165095980-c47a2c62-6fde-43af-9b98-53cd3b4da1b8.png">
+
 
 ## w3c css チェック結果
 
 - https://jigsaw.w3.org/css-validator/
+- <img width="802" alt="image" src="https://user-images.githubusercontent.com/99580997/165096033-b402c228-08ff-4819-8968-d68486844613.png">
+
 
 ## portfolio url:
 
